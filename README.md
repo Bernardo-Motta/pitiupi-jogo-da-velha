@@ -1,6 +1,6 @@
 # pitiupi
 
-Ferramenta **P2P** para práticas de Redes de Computadores: núcleo em Java com arquitetura de **plugins** (conversa na rede e compartilhamento de tela).
+Ferramenta **P2P** : núcleo em Java com arquitetura de **plugins** (conversa na rede e compartilhamento de tela).
 
 **Documentação:** [docs/README.md](docs/README.md) · **Quickstart:** [docs/comecar.md](docs/comecar.md)
 
