@@ -148,6 +148,4 @@ Ver [docs/usar.md](docs/usar.md) e [docs/rede.md](docs/rede.md).
 
 ---
 
-## Origem
 
-Projeto base UFSJ (Redes). GitHub: [GabrielFSSantos/pitiupi](https://github.com/GabrielFSSantos/pitiupi).
