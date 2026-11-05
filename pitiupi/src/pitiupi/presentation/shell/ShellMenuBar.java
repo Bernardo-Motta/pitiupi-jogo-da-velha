@@ -9,11 +9,14 @@ import javax.swing.JMenuItem;
  */
 public final class ShellMenuBar extends JMenuBar {
 
-    public ShellMenuBar(java.awt.Frame owner) {
+    public ShellMenuBar(java.awt.Frame owner, pitiupi.plugins.remote.PluginServer server) {
         JMenu plugins = new JMenu("Plugins");
         JMenuItem online = new JMenuItem("Plugins online…");
         online.addActionListener(e -> new RemotePluginsDialog(owner).setVisible(true));
         plugins.add(online);
+        JMenuItem share = new JMenuItem("Compartilhar meus plugins…");
+        share.addActionListener(e -> new PluginServerDialog(owner, server).setVisible(true));
+        plugins.add(share);
         add(plugins);
 
         JMenu help = new JMenu("Ajuda");
