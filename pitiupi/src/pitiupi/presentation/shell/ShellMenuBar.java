@@ -23,6 +23,9 @@ public final class ShellMenuBar extends JMenuBar {
         JMenuItem about = new JMenuItem("Sobre");
         about.addActionListener(e -> new AboutDialog().setVisible(true));
         help.add(about);
+        JMenuItem update = new JMenuItem("Verificar atualização…");
+        update.addActionListener(e -> SelfUpdater.checkAndPrompt(owner));
+        help.add(update);
         add(help);
     }
 }
