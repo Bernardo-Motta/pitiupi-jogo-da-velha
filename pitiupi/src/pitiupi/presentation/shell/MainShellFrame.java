@@ -45,7 +45,7 @@ public final class MainShellFrame extends JFrame implements ShellHost {
         galleryPanel.setOpenHandler(this::openPluginTabFromGallery);
 
         networkUsersPanel = new NetworkUsersPanel(connectionManager);
-        ShellMenuBar menuBar = new ShellMenuBar();
+        ShellMenuBar menuBar = new ShellMenuBar(this);
         setJMenuBar(menuBar);
 
         JPanel center = new JPanel(new BorderLayout());
