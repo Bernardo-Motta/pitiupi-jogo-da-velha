@@ -122,6 +122,24 @@ O núcleo carrega **todos os `*.jar`** em `PITIUPI_HOME/plugins`. Detalhes: [pit
 
 Conferir no Linux ou no WSL: `./scripts/pitiupi.sh check`. Testes do núcleo: `cd pitiupi && ant test`.
 
+### Linux sem sudo
+
+```
+wget https://dlcdn.apache.org/ant/binaries/apache-ant-1.10.18-bin.tar.gz
+wget https://dlcdn.apache.org/ant/binaries/apache-ant-1.10.18-bin.tar.gz
+
+
+tar -xzf apache-ant-1.10.15-bin.tar.gz
+mv apache-ant-1.10.15 "$HOME/ant"
+
+
+echo 'export ANT_HOME="$HOME/ant"' >> ~/.bashrc
+echo 'export PATH="$ANT_HOME/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+
+ant -version
+```
 ---
 
 ## Comandos do script
