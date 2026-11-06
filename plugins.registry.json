@@ -20,6 +20,14 @@
       "build": "ant",
       "jar": "dist/pitiupi.ping.jar",
       "menuCategory": "Social"
+    },
+    {
+      "id": "damas",
+      "dir": "plugins/damas",
+      "build": "ant",
+      "jar": "dist/pitiupi.damas.jar",
+      "menuCategory": "Jogos"
     }
+
   ]
 }
