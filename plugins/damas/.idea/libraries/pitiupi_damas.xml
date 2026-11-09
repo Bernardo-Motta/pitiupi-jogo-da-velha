@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="pitiupi.damas">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/pitiupi.damas.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
