@@ -1,5 +1,10 @@
 # pitiupi
 
+> **Trabalho prático de Redes de Computadores (UFSJ) — Bernardo Motta**
+>
+> Este repositório é um fork do [pitiupi](https://git.alice.ufsj.edu.br/fls/pitiupi) com o plugin **Jogo da Velha 1x1 via UDP multicast**.
+> Código em [`plugins/velha`](plugins/velha) · Protocolo detalhado em [`plugins/velha/README.md`](plugins/velha/README.md)
+
 Ferramenta **P2P** : núcleo em Java com arquitetura de **plugins** (conversa na rede e compartilhamento de tela).
 
 **Documentação:** [docs/README.md](docs/README.md) · **Quickstart:** [docs/comecar.md](docs/comecar.md)
